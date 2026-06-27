@@ -1,0 +1,21 @@
+# Abaikan semua file dan folder di direktori ini
+*
+
+# Jangan abaikan direktori itu sendiri (agar Git bisa membaca isinya)
+!*/
+
+# -------------------------------------------------------------
+# DAFTAR FILE YANG DIIZINKAN (WHITELIST) UNTUK MASUK KE GITHUB
+# -------------------------------------------------------------
+!.gitignore
+!main.py
+!README.md
+!requirements.txt
+!assets/screenshot.png
+
+# -------------------------------------------------------------
+# Pastikan file cache dan sampah tetap diabaikan secara absolut
+# -------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pdf

@@ -1,0 +1,5 @@
+# Requirements untuk Kalkulator Backpropagation (UAS ANN)
+# Dibuat dengan Tkinter (Bawaan Python stdlib)
+# Hanya butuh library eksternal ini jika ingin generate PDF secara manual.
+fpdf2==2.7.9
+pypdf==4.2.0
